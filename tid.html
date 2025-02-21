@@ -54,14 +54,28 @@
     }
 
     .test-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transform: translateY(-15px);
+      box-shadow: 0 4px 8px rgba(64, 187, 52, 1);
     }
 
     .test-icon {
       font-size: 40px;
       margin-bottom: 15px;
       color: #198754;
+    }
+    h5{
+      color: #198754;
+    }
+    a{
+      text-decoration: none;
+    }
+    .text-centerfw-boldmb-4{
+      color: #198754;
+    }
+    #title{
+      color: #198754;
+      text-align: center;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -70,7 +84,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+      <a class="navbar-brand" href="#"><img style="height: 7rem; width: 15rem;" src="images/logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -101,75 +115,82 @@
 
   <!-- Test Boxes Section -->
   <div class="container my-5">
-    <h2 class="text-center fw-bold mb-4">Test information directory
-    </h2>
+    <h2 class="text-center fw-bold mb-4" id="title">Test Information Directory</h2>
     <div class="row g-4">
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/diabetes/bmi.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="Diabetes Test" height="60px">
+           
+            <img src="Test Information Directory/bmi.png" alt="Diabetes Test" height="60px">
+          </div>
+          <h5>BMI Calculator</h5>
+        </div></a>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/diabetes/diabetes.html">
+        <div class="test-card">
+          <div class="test-icon">
+           
+            <img src="Test Information Directory/diabetes.png" alt="Diabetes Test" height="60px">
           </div>
           <h5>Diabetes Test</h5>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/heart/heart.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="Blood Test" height="60px">
+            <img src="Test Information Directory/heart.png" alt="Blood Test" height="60px">
           </div>
-          <h5>Blood Test</h5>
-        </div>
+          <h5>Heart Disease Test</h5>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/xray/xray.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="X-Ray" height="60px">
+            <img src="Test Information Directory/xray.png" alt="X-Ray" height="60px">
           </div>
           <h5>X-Ray</h5>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/ctscan/ctscan.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="CT Scan" height="60px">
+            <img src="Test Information Directory/ctscan.webp" alt="CT Scan" height="60px">
           </div>
           <h5>CT Scan</h5>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/mriScan/mriScan.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="MRI Scan" height="60px">
+            <img src="Test Information Directory/mri.png" alt="MRI Scan" height="60px">
           </div>
           <h5>MRI Scan</h5>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/thyroid/thyroid.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="Thyroid Test" height="60px">
+            <img src="Test Information Directory/thyroid.png" alt="Thyroid Test" height="60px">
           </div>
-          <h5>Thyroid Test</h5>
-        </div>
+          <h5>Thyroid Report</h5>
+        </div></a>
       </div>
       <div class="col-md-3 col-sm-6">
+        <a href="Test Information Directory/prescribedMed/prescription.html">
         <div class="test-card">
           <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="Heart Checkup" height="60px">
+            <img src="Test Information Directory/prescribed.png" alt="Heart Checkup" height="60px">
           </div>
-          <h5>Heart Checkup</h5>
-        </div>
+          <h5>Prescribed Medicine</h5>
+        </div></a>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="test-card">
-          <div class="test-icon">
-            <img src="images/diabetes.jpg" alt="Allergy Test" height="60px">
-          </div>
-          <h5>Allergy Test</h5>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Footer -->
   <footer class="bg-body-tertiary text-center py-4 mt-5">
